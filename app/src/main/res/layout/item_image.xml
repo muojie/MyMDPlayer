@@ -8,5 +8,14 @@
         android:id="@+id/img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        fresco:progressBarImage="@mipmap/icon_progress_bar"
+        fresco:progressBarImageScaleType="centerInside"
+        fresco:progressBarAutoRotateInterval="5000"
+        fresco:failureImage="@mipmap/icon_failure"
+        fresco:failureImageScaleType="centerInside"
+        fresco:retryImage="@mipmap/icon_retry"
+        fresco:retryImageScaleType="centerCrop"
+        fresco:fadeDuration="5000"
+        />
 </android.support.v7.widget.CardView>
